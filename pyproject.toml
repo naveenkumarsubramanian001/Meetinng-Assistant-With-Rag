@@ -1,0 +1,36 @@
+[project]
+name = "video-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+	"chromadb>=0.5.0",
+	"deep-translator>=1.11.4",
+	"ffmpeg-python>=0.2.0",
+	"faster-whisper>=1.0.3",
+	"fpdf2>=2.7.9",
+	"huggingface-hub>=0.24.6",
+	"langchain>=0.2.0",
+	"langchain-community>=0.2.0",
+	"langchain-core>=0.2.0",
+	"langchain-chroma>=0.1.4",
+	"langchain-huggingface>=0.0.3",
+	"langchain-mistralai>=0.1.13",
+	"numpy>=1.26.4",
+	"pydub>=0.25.1",
+	"python-dotenv>=1.0.1",
+	"reportlab>=4.2.2",
+	"sarvamai==0.1.30",
+	"streamlit-extras>=0.5.7",
+	"sentence-transformers>=3.0.1",
+	"streamlit>=1.37.0",
+	"tiktoken>=0.7.0",
+	"tqdm>=4.66.5",
+	"torch>=2.3.1",
+	"torchaudio>=2.3.1",
+	"watchdog>=4.0.2",
+	"requests>=2.32.3",
+	"yt-dlp>=2024.8.6",
+	"lingua>=1.0.0",
+]

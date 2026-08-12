@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Local databases / vector stores
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+chromadb/
+vectorstore/
+.faiss/
+
+# Large model/data files
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Build
+dist/
+build/
+*.egg-info/
